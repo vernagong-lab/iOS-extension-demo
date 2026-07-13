@@ -167,7 +167,11 @@
     display: none;
   }
   .version-slot.active { display: block; }
-  #lottie-player-v1 { position: absolute; inset: 0; }
+  #lottie-player-v1 {
+    position: absolute;
+    top: 12px; /* requested: 12pt gap between the white steps card and the V1 animation */
+    left: 0; right: 0; bottom: 0;
+  }
   #lottie-player-v2 {
     position: absolute;
     top: 20px; /* requested: 20pt gap between the white steps card and the V2 animation */
